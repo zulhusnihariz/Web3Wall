@@ -8,7 +8,7 @@ import manifestForPlugIn from './manifest'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tsconfigPaths(), VitePWA({ registerType: 'autoUpdate', manifest: manifestForPlugIn })],
-  base: './',
+  base: '/',
 
   /*   define: {
     'process.env': {},
