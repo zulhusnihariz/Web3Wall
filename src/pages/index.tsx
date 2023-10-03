@@ -9,8 +9,8 @@ declare global {
 }
 
 const PageIndex = () => {
-  const [isPWA, setIsPWA] = useState(false)
-  const [isPWAAndroid, setIsPWAAndroid] = useState(false)
+  const [isPWA, setIsPWA] = useState(true)
+  const [isPWAAndroid, setIsPWAAndroid] = useState(true)
   const [isPWAiOS, setIsPWAIOS] = useState(false)
 
   const navigate = useNavigate()
